@@ -40,7 +40,7 @@
 		F50E4EE829719F7300AFFE42 /* CloudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudApp.swift; sourceTree = "<group>"; };
 		F50E4EE929719F7300AFFE42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F50E4EEA29719F7500AFFE42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F50E4EEF29719F7500AFFE42 /* Cloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50E4EEF29719F7500AFFE42 /* OVOSTAGE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OVOSTAGE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50E4EF529719F7500AFFE42 /* Cloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50E4EF729719F7500AFFE42 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		F50E4EFC29719F7500AFFE42 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,7 +107,7 @@
 		F50E4EF029719F7500AFFE42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F50E4EEF29719F7500AFFE42 /* Cloud.app */,
+				F50E4EEF29719F7500AFFE42 /* OVOSTAGE.app */,
 				F50E4EF529719F7500AFFE42 /* Cloud.app */,
 				F50E4EFC29719F7500AFFE42 /* Tests iOS.xctest */,
 				F50E4F0829719F7500AFFE42 /* Tests macOS.xctest */,
@@ -158,7 +158,7 @@
 			);
 			name = "Cloud (iOS)";
 			productName = "Cloud (iOS)";
-			productReference = F50E4EEF29719F7500AFFE42 /* Cloud.app */;
+			productReference = F50E4EEF29719F7500AFFE42 /* OVOSTAGE.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F50E4EF429719F7500AFFE42 /* Cloud (macOS) */ = {
@@ -479,9 +479,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.70.99;
 				PRODUCT_BUNDLE_IDENTIFIER = ovo.id.stage;
-				PRODUCT_NAME = Cloud;
+				PRODUCT_NAME = OVOSTAGE;
 				PROVISIONING_PROFILE_SPECIFIER = "match Development ovo.id.stage";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -511,9 +511,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.70.99;
 				PRODUCT_BUNDLE_IDENTIFIER = ovo.id.stage;
-				PRODUCT_NAME = Cloud;
+				PRODUCT_NAME = OVOSTAGE;
 				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc ovo.id.stage";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
